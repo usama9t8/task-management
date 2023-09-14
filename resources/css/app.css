@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+.sidebar-bg {
+    background: #fff;
+}
+
+.sidebar-bg nav a,
+.sidebar-bg nav button,
+.sidebar-bg nav button span {
+    color: #222;
+}
+
+.sidebar-bg nav a:hover,
+.sidebar-bg nav button:hover,
+.sidebar-bg nav button span:hover {
+    background: #fff;
+    color: #222;
+}
+
+.sidebar-bg nav a:active,
+.sidebar-bg nav button:active,
+.sidebar-bg nav button span:active {
+    background: #fff;
+    color: #222;
+}
+
+.sidebar-bg nav a:focus,
+.sidebar-bg nav button:focus,
+.sidebar-bg nav button span:focus {
+    background: #fff;
+    color: #222;
+}
+
+.fullwidth-dropdown .w-48 {
+    right: auto;
+    width: 100%;
+}
+
+.sidebar-bg nav .fullwidth-dropdown a {
+    font-size: 16px;
+    color: #222;
+}
+
+.sidebar-bg nav .fullwidth-dropdown button[type="submit"] {
+    font-size: 16px;
+    color: #222;
+}
+
+.sidebar-bg nav .fullwidth-dropdown a:hover,
+.sidebar-bg nav .fullwidth-dropdown a:active,
+.sidebar-bg nav .fullwidth-dropdown a:focus {
+    background: #222;
+}
+
+.sidebar-bg nav .user-dropdown button {
+    color: #222;
+}
+
+.sidebar-bg nav .org-dropdown button {
+    color: #222;
+}
+
+@media (min-width: 768px) {
+    .sidebar-area {
+        max-width: 280px;
+        min-width: 18em;
+    }
+
+    .sidebar-bg {
+        background: #212529;
+    }
+
+    .sidebar-bg nav a,
+    .sidebar-bg nav button,
+    .sidebar-bg nav button span {
+        color: #e3e4e6;
+    }
+
+    .sidebar-bg nav a:hover,
+    .sidebar-bg nav button:hover,
+    .sidebar-bg nav button span:hover {
+        background: #191d21;
+        color: #fff;
+    }
+
+    .sidebar-bg nav a:active,
+    .sidebar-bg nav button:active,
+    .sidebar-bg nav button span:active {
+        background: #191d21;
+        color: #fff;
+    }
+
+    .sidebar-bg nav a:focus,
+    .sidebar-bg nav button:focus,
+    .sidebar-bg nav button span:focus {
+        background: #191d21;
+        color: #fff;
+    }
+
+    .fullwidth-dropdown .w-48 {
+        right: auto;
+        width: 100%;
+    }
+
+    .sidebar-bg nav .fullwidth-dropdown a {
+        font-size: 16px;
+        color: #171b1d;
+    }
+
+    .sidebar-bg nav .fullwidth-dropdown button[type="submit"] {
+        font-size: 16px;
+        color: #171b1d;
+    }
+
+    .sidebar-bg nav .fullwidth-dropdown a:hover,
+    .sidebar-bg nav .logout-btn button:hover,
+    .sidebar-bg nav .fullwidth-dropdown a:active,
+    .sidebar-bg nav .logout-btn button:active,
+    .sidebar-bg nav .fullwidth-dropdown a:focus,
+    .sidebar-bg nav .logout-btn button:focus {
+        background: #f8f9fa;
+    }
+
+    .sidebar-bg nav .org-dropdown button {
+        color: #e3e4e6;
+    }
+}
